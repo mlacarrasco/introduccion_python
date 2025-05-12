@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv('data/formulario_2023.csv')
+data = pd.read_csv('data/formulario_2025.csv')
 
 print(data.columns)
 
