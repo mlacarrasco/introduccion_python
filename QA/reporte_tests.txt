@@ -1,0 +1,46 @@
+......WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20251124 11:37:21.801714 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.802503 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.802618 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.802723 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.802826 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.802930 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.803032 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.803134 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.803236 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.803339 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.803440 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.803542 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+W20251124 11:37:21.803644 1520213888 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+...Matplotlib created a temporary cache directory at /var/folders/r7/kskvcxms1gdc5jwf9q7q12dc0000gn/T/matplotlib-9nrmkb7m because the default path (/Users/miguelcarrasco/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/usr/local/var/cache/fontconfig
+	/Users/miguelcarrasco/.cache/fontconfig
+	/Users/miguelcarrasco/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/usr/local/var/cache/fontconfig
+	/Users/miguelcarrasco/.cache/fontconfig
+	/Users/miguelcarrasco/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/usr/local/var/cache/fontconfig
+	/Users/miguelcarrasco/.cache/fontconfig
+	/Users/miguelcarrasco/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/usr/local/var/cache/fontconfig
+	/Users/miguelcarrasco/.cache/fontconfig
+	/Users/miguelcarrasco/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/usr/local/var/cache/fontconfig
+	/Users/miguelcarrasco/.cache/fontconfig
+	/Users/miguelcarrasco/.fontconfig
+Matplotlib is building the font cache; this may take a moment.
+...................................................
+----------------------------------------------------------------------
+Ran 60 tests in 14.627s
+
+OK
